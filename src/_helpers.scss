@@ -1,0 +1,15 @@
+//
+// utility
+//
+
+.invisible { color: transparent; }
+.circle { border-radius: 50%; }
+.hidden { display: none; }
+
+.ov-hidden,
+.over-hidden {
+    overflow: hidden;
+}
+.over-y-auto {
+    overflow-y: auto;
+}

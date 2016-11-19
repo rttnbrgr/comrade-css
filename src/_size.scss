@@ -1,0 +1,19 @@
+.w100 { width: 100%; }
+.vw { width: 100vw; }
+.h100 { height: 100%; }
+.vh { height: 100vh; }
+.vh50 { height: 50vh; }
+.vh25 { height: 25vh; }
+.vh15 { height: 15vh; }
+
+// vw + vh
+.full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.half {
+    width: 50vw;
+    height: 100vh;
+}

@@ -1,0 +1,15 @@
+.fs1 { font-size: 1em; }
+.fs1-5 { font-size: 1.5em; }
+.fs2 { font-size: 2em; }
+.fs2-5 { font-size: 2.5em; }
+.fs3 { font-size: 3em; }
+.fs3-5 { font-size: 3.5em; }
+.fs4 { font-size: 4em; }
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+    display: block;
+}
