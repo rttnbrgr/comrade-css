@@ -1,0 +1,19 @@
+{
+  "name": "comrade-css",
+  "version": "0.0.1",
+  "description": "Styles for you and your comrades.",
+  "main": "comrade.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tayox/comrade-css.git"
+  },
+  "author": "Nathan Rothenberger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tayox/comrade-css/issues"
+  },
+  "homepage": "https://github.com/tayox/comrade-css#readme"
+}
