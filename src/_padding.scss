@@ -1,3 +1,43 @@
+$padding-prefix: "p" !default;
+$levels: 3;
+$half-step: .5em;
+$directions: ('', '-top', '-right', '-bottom', '-left');
+$direction-prefix: ('', 't', 'r', 'b', 'l');
+
+@each $d in $directions {
+    
+    /* padding #{$d} */
+
+    // Zero Hack
+    .#{$padding-prefix}#{nth($direction-prefix, index($directions, $d) )}-0 {
+        padding#{$d}: 0;                
+    }
+
+    // Whole Sizes
+    @for $i from 1 through ($levels)-1 {
+        
+        .#{$padding-prefix}#{nth($direction-prefix, index($directions, $d) )}-#{$i} {
+            padding#{$d}: $i * 1em;
+        }
+
+        .#{$padding-prefix}#{nth($direction-prefix, index($directions, $d) )}-#{$i}5 {
+            padding#{$d}: $i + .5em;
+        }
+    }
+    
+    // Final Level
+    .#{$padding-prefix}#{nth($direction-prefix, index($directions, $d) )}-#{$levels} {
+        padding#{$d}: $levels * 1em;
+    }
+}
+
+
+
+
+
+
+
+
 .p {
     &-0  { padding: 0 }
     &-05 { padding: 0.5em }
