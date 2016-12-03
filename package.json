@@ -4,7 +4,8 @@
   "description": "Styles for you and your comrades.",
   "main": "comrade.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -r src/.sass-cache src/*.css src/*.map .sass-cache"
   },
   "repository": {
     "type": "git",
