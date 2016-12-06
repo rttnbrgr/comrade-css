@@ -1,6 +1,6 @@
 {
   "name": "comrade-css",
-  "version": "0.0.1",
+  "version": "0.0.1.1",
   "description": "Styles for you and your comrades.",
   "main": "comrade.css",
   "scripts": {
