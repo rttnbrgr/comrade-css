@@ -366,6 +366,13 @@
   max-width: 100%;
   display: block; }
 
+.ta-l {
+  text-align: left; }
+.ta-c {
+  text-align: center; }
+.ta-r {
+  text-align: right; }
+
 .fullbleed {
   position: absolute;
   top: 0;
