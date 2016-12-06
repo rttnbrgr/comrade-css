@@ -13,3 +13,9 @@
     max-width: 100%;
     display: block;
 }
+
+.ta {
+	&-l { text-align: left; }
+	&-c { text-align: center; }
+	&-r { text-align: right; }
+}
