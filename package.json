@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -r src/.sass-cache src/*.css src/*.map .sass-cache",
-    "compile": "sass src/comrade.scss comrade.css && npm run clean",
+    "compile": "sass src/comrade.scss comrade.css",
     "watch": "sass --watch src/comrade.scss:comrade.css"
   },
   "repository": {
