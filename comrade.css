@@ -517,4 +517,20 @@
 .over-y-auto {
   overflow-y: auto; }
 
+/*
+ * Unsorted
+ *
+ * Put working rules here before you cateorize and sort them 'thangs.
+ * This comment doesn't need to be this long but eye like the
+ * way longer comments look when you do this block type of comment. 
+ * - Karl
+ *
+**/
+.bg-w {
+  background-color: #fff; }
+.bg-b {
+  background-color: #000; }
+.bg-g {
+  background-color: #ccc; }
+
 /*# sourceMappingURL=comrade.css.map */
